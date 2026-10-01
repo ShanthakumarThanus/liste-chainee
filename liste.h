@@ -1,6 +1,5 @@
-#ifndef liste_h
-#define liste_h
-
+#ifndef LISTE_H
+#define LISTE_H
 #include <stdbool.h>
 
 typedef struct Maillon {
@@ -14,4 +13,4 @@ bool     liste_contient(const Maillon *tete, int valeur);      /* liste_contient
 void     liste_afficher(const Maillon *tete);      /* liste_afficher */
 void     liste_liberer(Maillon *tete);      /* liste_liberer  */
 
-#endif // liste_h
+#endif // LISTE_H
