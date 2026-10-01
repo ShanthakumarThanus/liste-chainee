@@ -43,4 +43,4 @@ void liste_liberer(Maillon *tete)
         free(m);
         m = suiv;
     }
-}
+} 
